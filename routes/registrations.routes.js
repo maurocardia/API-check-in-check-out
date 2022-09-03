@@ -1,5 +1,6 @@
 const express = require('express');
 
+// controladores
 const {
     getAllRegistrations,
     createRegistration,
@@ -7,6 +8,8 @@ const {
     createTimeExit,
     cancelRegistration,
 } = require('../controllers/registrations.controller');
+
+//verbos 
 
 const registrationsRouter = express.Router();
 registrationsRouter.get('/', getAllRegistrations);

@@ -1,5 +1,7 @@
 const { db, DataTypes } = require('../utils/database.utils');
 
+//modelo  de tabla
+
 const Registration = db.define('registration', {
     id: {
         type: DataTypes.INTEGER,
